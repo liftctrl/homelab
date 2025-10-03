@@ -1,0 +1,10 @@
+# Proxmox connection
+proxmox_endpoint = "https://192.168.0.100:8006/api2/json"
+api_token        = "terraform@pve!terraform-token=0811a963-14f7-4f2f-af0e-6ea7efa598ec"
+
+# VM config overrides
+vm_name         = "cloud-test"
+vm_ip           = "192.168.0.200/24"
+vm_gateway      = "192.168.0.1"
+ssh_user        = "test"
+ssh_pubkey_file = "./proxmox_test.pub"
