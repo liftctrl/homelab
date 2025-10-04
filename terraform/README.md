@@ -89,11 +89,11 @@ It covers environment details, credentials, installation steps, and how to acces
 - Connect to the server via SSH:
 
   ```bash
-  ssh terraform@192.168.0.150
+  ssh -i ~/.ssh/privatekey terraform@192.168.0.150
   ```
 
 - **Username**: terraform
-- **Password**: terraform
+- **Private Key:** `~/.ssh/privatekey`
 
 ---
 
