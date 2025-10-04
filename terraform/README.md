@@ -28,9 +28,9 @@ It covers environment details, credentials, installation steps, and how to acces
 ## 3. Credentials
 
 - **Username:** terraform  
-- **Password:** terraform  
+- **Private Key:** `~/.ssh/privatekey`
 
-> ⚠️ Change this password immediately after installation for security.  
+> ⚠️ Secure your SSH keys and restrict file permissions (`chmod 600 ~/.ssh/privatekey`).
 
 ---
 
