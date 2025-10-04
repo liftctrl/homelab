@@ -16,7 +16,7 @@ It covers environment details, credentials, installation steps, and how to acces
 - **DNS:** 1.1.1.1  
 - **CPUs:** 2  
 - **Memory:** 2048 MB  
-- **Disk:** 30 GB  
+- **Disk:** 40 GB  
 
 **Prerequisites:**  
 
